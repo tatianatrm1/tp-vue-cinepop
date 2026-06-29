@@ -71,9 +71,7 @@ const toggleFavorito = () => {
   localStorage.setItem('favorito', JSON.stringify(favs))
 }
 
-// =====================
-// VOLVER
-// =====================
+
 const volver = () => {
   router.push(origen.value)
 }
